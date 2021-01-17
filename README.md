@@ -26,6 +26,20 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```{r, include = FALSE}
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+n <- rnorm(1000)
+```
+
+```{r}
+plot(n)
+```
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
